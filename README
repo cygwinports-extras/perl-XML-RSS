@@ -1,0 +1,59 @@
+perl-XML-RSS
+-------------------------------------------
+This module was created to help those who need to manage
+RDF Site Summary (RSS) files. It makes quick work of
+creating, updating, and saving RSS files.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~abh/XML-RSS/
+
+Canonical download:
+  http://www.cpan.org/authors/id/A/AB/ABH/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-XML-RSS-1.10-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-XML-RSS-1.10-X.cygport all
+
+This will create:
+  /usr/src/perl-XML-RSS-1.10-X-src.tar.bz2
+  /usr/src/perl-XML-RSS-1.10-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-XML-RSS.sh
+  /usr/lib/perl5/vendor_perl/5.8/XML/RSS.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/RSS/.packlist
+  /usr/share/doc/Cygwin/perl-XML-RSS-1.10.README
+  /usr/share/doc/perl-XML-RSS-1.10/Changes
+  /usr/share/doc/perl-XML-RSS-1.10/README
+  /usr/share/doc/perl-XML-RSS-1.10/TODO
+  /usr/share/man/man3/XML.RSS.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/XML-RSS.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.10-1 -----
+Version bump.
+
+----- version 1.05-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 1.05-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
