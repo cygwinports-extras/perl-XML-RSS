@@ -6,7 +6,7 @@ creating, updating, and saving RSS files.
 
 Runtime requirements:
   perl-5.10.0-5
-  perl-DateTime-0.43-1
+  perl-DateTime-0.4501-1
   perl-DateTime-Format-Mail-0.3001-1
   perl-DateTime-Format-W3CDTF-0.04-1
 
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-RSS-1.41-X-src.tar.bz2
+  unpack perl-XML-RSS-1.43-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-RSS-1.41-X.cygport all
+  cygport ./perl-XML-RSS-1.43-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-RSS-1.41-X-src.tar.bz2
-  /usr/src/perl-XML-RSS-1.41-X.tar.bz2
+  /usr/src/perl-XML-RSS-1.43-X-src.tar.bz2
+  /usr/src/perl-XML-RSS-1.43-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,14 +49,17 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/XML/RSS/Private/Output/V2_0.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/XML/RSS/.packlist
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/XML/RSS.html
-  /usr/share/doc/perl-XML-RSS-1.41/Changes
-  /usr/share/doc/perl-XML-RSS-1.41/README
-  /usr/share/doc/perl-XML-RSS-1.41/TODO
+  /usr/share/doc/perl-XML-RSS-1.43/Changes
+  /usr/share/doc/perl-XML-RSS-1.43/README
+  /usr/share/doc/perl-XML-RSS-1.43/TODO
   /usr/share/man/man3/XML.RSS.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.43-1 -----
+Version bump.
 
 ----- version 1.41-1 -----
 Version bump.
